@@ -36,8 +36,13 @@ pip install -r requirements.txt
 
 ### 3. Настройка подключения
 ```bash
-# Скопируйте шаблон
-cp .env.example .env
+# Скопируйте содержимое из .env.example
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=test
+DB_USER=postgres
+DB_PASSWORD=ваш_пароль_от_postgres
 
 # Отредактируйте .env, указав ваши данные подключения
 ```
